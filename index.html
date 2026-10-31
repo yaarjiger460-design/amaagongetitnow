@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GetItNow Finds | Curated Viral Travel & Home Essentials</title>
+  <meta name="description" content="Discover viral problem-solving travel gear, smart packing hacks, and everyday home organization favorites hand-picked on Amazon." />
+  
+  <!-- Pinterest Domain Verification Meta Tag (Paste your Pinterest code here when ready) -->
+  <!-- <meta name="p:domain_verify" content="YOUR_PINTEREST_CODE_HERE" /> -->
+
+  <!-- Open Graph / Pinterest Rich Pins -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="GetItNow Finds | Curated Viral Amazon Finds" />
+  <meta property="og:description" content="Hand-picked travel essentials, smart packing hacks, and clever home gadgets." />
+  <meta property="og:image" content="images/landscape_travel_pill_organizer.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛍️</text></svg>">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Mandatory Amazon Associates Compliance Banner -->
+  <div class="compliance-banner">
+    <span>⭐</span> Independent Curated Recommendations. As an Amazon Associate, we earn from qualifying purchases.
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="header-container">
+      <a href="index.html" class="brand-logo">
+        <div class="brand-icon">G</div>
+        <div class="brand-text">
+          <h1>GetItNow Finds</h1>
+          <p>Curated Amazon Essentials</p>
+        </div>
+      </a>
+
+      <div class="search-wrapper">
+        <span class="search-icon">🔍</span>
+        <input 
+          type="text" 
+          id="search-input" 
+          class="search-input" 
+          placeholder="Search travel gear, packing hacks, home..." 
+          autocomplete="off"
+        />
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container">
+
+    <!-- Spotlight Bridge Section (Visible when ?p=slug is in the URL from Pinterest) -->
+    <section id="spotlight-container" style="display: none;"></section>
+
+    <!-- Catalog Section Header -->
+    <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 16px;">
+      <h2 id="catalog-section-title" style="font-size: 1.35rem; font-weight: 800; letter-spacing: -0.01em;">
+        Trending Viral Finds
+      </h2>
+      <span id="results-count" style="font-size: 0.85rem; color: #64748b; font-weight: 500;"></span>
+    </div>
+
+    <!-- Category Filter Pills -->
+    <nav class="filters-bar" aria-label="Category Filters">
+      <button class="filter-pill active" data-category="all">All Finds</button>
+      <button class="filter-pill" data-category="travel">✈️ Travel & Packing</button>
+      <button class="filter-pill" data-category="home">🏡 Home & Kitchen</button>
+      <button class="filter-pill" data-category="tech">⚡ Tech & Everyday</button>
+      <button class="filter-pill" data-category="under15">🏷️ Under $15</button>
+    </nav>
+
+    <!-- Product Cards Grid -->
+    <section id="products-grid" class="products-grid"></section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h2>GetItNow Finds</h2>
+          <p>
+            Your daily guide to clever travel hacks, space-saving organization essentials, and viral problem-solving Amazon products.
+          </p>
+        </div>
+        <div style="display: flex; gap: 24px; font-size: 0.85rem;">
+          <div>
+            <strong style="color: #ffffff; display: block; margin-bottom: 8px;">Categories</strong>
+            <p style="margin-bottom: 4px;"><a href="index.html" style="color: #94a3b8; text-decoration: none;">Travel Hacks</a></p>
+            <p style="margin-bottom: 4px;"><a href="index.html" style="color: #94a3b8; text-decoration: none;">Home Storage</a></p>
+            <p><a href="index.html" style="color: #94a3b8; text-decoration: none;">Budget Finds</a></p>
+          </div>
+          <div>
+            <strong style="color: #ffffff; display: block; margin-bottom: 8px;">Storefront</strong>
+            <p style="margin-bottom: 4px;"><a href="https://www.pinterest.com/amagonGetitnow/" target="_blank" rel="noopener noreferrer" style="color: #94a3b8; text-decoration: none;">Pinterest Profile</a></p>
+            <p><a href="index.html" style="color: #94a3b8; text-decoration: none;">All Products</a></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Legal Disclosure Required by Amazon Operating Agreement -->
+      <div class="footer-disclaimer-box">
+        <strong>Amazon Affiliate Disclosure:</strong><br />
+        GetItNow Finds is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. As an Amazon Associate, we earn from qualifying purchases.<br /><br />
+        Certain content that appears on this site comes from Amazon Services LLC. This content is provided 'as is' and is subject to change or removal at any time. Product prices and availability are accurate as of the date/time indicated and are subject to change. Any price and availability information displayed on Amazon.com at the time of purchase will apply to the purchase of this product.
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 GetItNow Finds. All rights reserved.</div>
+        <div>Built for ultra-fast, mobile-first Pinterest traffic.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
