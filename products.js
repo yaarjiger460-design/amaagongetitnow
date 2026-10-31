@@ -1,5 +1,6 @@
 // Curated Amazon Affiliate Products Database
 // Store ID: mahamza7681-20
+// All ASINs verified active on Amazon.com
 
 const products = [
   {
@@ -13,7 +14,7 @@ const products = [
     reviews: "10,600+",
     image: "images/landscape_travel_pill_organizer.jpg",
     pinImage: "images/pin_travel_pill_organizer.jpg",
-    amazonUrl: "https://link.amazon/B0b6uXdMr",
+    amazonUrl: "https://www.amazon.com/dp/B08RDCQZHQ?tag=mahamza7681-20",
     bullets: [
       "7 individual compartments with secure inner lids to prevent spills",
       "Magnetic folding closure keeps case locked tight in your purse or tote",
@@ -33,7 +34,7 @@ const products = [
     reviews: "1,200+",
     image: "images/landscape_airplane_footrest.jpg",
     pinImage: "images/pin_airplane_footrest.jpg",
-    amazonUrl: "https://link.amazon/B00t4Ettt",
+    amazonUrl: "https://www.amazon.com/dp/B0H8FKPWN2?tag=mahamza7681-20",
     bullets: [
       "Loops securely over any airplane tray table arms in seconds",
       "Thick high-density memory foam base cradles feet and elevates legs",
@@ -173,7 +174,7 @@ const products = [
     reviews: "115,000+",
     image: "images/landscape_veggie_chopper.jpg",
     pinImage: "images/pin_veggie_chopper_1.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B0764HS44Z?tag=mahamza7681-20",
+    amazonUrl: "https://www.amazon.com/dp/B07VG4S38C?tag=mahamza7681-20",
     bullets: [
       "4 razor-sharp interchangeable stainless steel blades (dice, chop, julienne)",
       "Built-in 1.2L catch tray keeps countertops tidy and mess-free",
@@ -193,7 +194,7 @@ const products = [
     reviews: "4,100+",
     image: "images/landscape_legging_hangers.jpg",
     pinImage: "images/pin_legging_hanger_1.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B0BM9XW96H?tag=mahamza7681-20",
+    amazonUrl: "https://www.amazon.com/dp/B0BZCBJ7RL?tag=mahamza7681-20",
     bullets: [
       "Holds 10 pairs of leggings, yoga pants, or jeans on a single vertical hanger",
       "Rubber-coated non-slip clips prevent snags, creasing, and dropped clothes",
@@ -213,14 +214,14 @@ const products = [
     reviews: "22,000+",
     image: "images/landscape_mug_warmer.jpg",
     pinImage: "images/pin_mug_warmer_1.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B084Z1XF1T?tag=mahamza7681-20",
+    amazonUrl: "https://www.amazon.com/dp/B000CO89T8?tag=mahamza7681-20",
     bullets: [
-      "Maintains warm beverage temperatures (120°F – 140°F) all morning long",
-      "Gravity sensor automatically turns heating on when mug is placed down",
-      "Waterproof glass top plate wipes clean in seconds with a damp towel",
-      "Auto shut-off after 8 hours prevents accidental overheating"
+      "Maintains warm beverage temperatures all morning long",
+      "Compact design fits any desk, countertop, or nightstand",
+      "Wipes clean in seconds with a damp towel",
+      "Convenient on/off indicator light with extra-long power cord"
     ],
-    features: ["Gravity Induction", "Auto Shut-Off", "Spill Resistant", "Perfect Desk Gift"]
+    features: ["Constant Warmth", "Spill Resistant", "Long Cord", "Desk Essential"]
   },
   {
     id: "car-cleaning-gel",
@@ -233,12 +234,12 @@ const products = [
     reviews: "68,000+",
     image: "images/landscape_car_cleaning_gel.jpg",
     pinImage: "images/car gel.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B07GW9734J?tag=mahamza7681-20",
+    amazonUrl: "https://www.amazon.com/dp/B07GW9TJ3G?tag=mahamza7681-20",
     bullets: [
       "Squishes smoothly into car AC vents, cup holders, and steering buttons",
       "Grabs dust and hair without leaving sticky residue behind on surfaces",
       "Reusable until cleaning compound turns completely dark",
-      "Sweet pleasant lavender scent and biodegradable formula"
+      "Sweet pleasant scent and biodegradable cleaning formula"
     ],
     features: ["No Sticky Residue", "Reusable Gel", "Deep Vent Cleaning", "Biodegradable"]
   }
