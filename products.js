@@ -1,8 +1,48 @@
-// Curated Amazon Affiliate Products Database
+﻿// Curated Amazon Affiliate Products Database
 // Store ID: mahamza7681-20
 // Contains ALL 18 products with the EXACT affiliate links provided in chat
 
 const products = [
+  {
+    id: "silicone-travel-bottles",
+    title: "18-Piece Leak-Proof Silicone Travel Bottles Set (TSA Approved)",
+    tagline: "Stop full-size shampoo bottles from leaking all over your clothes",
+    category: "travel",
+    badge: "Under ",
+    badgeType: "budget",
+    rating: "4.5",
+    reviews: "12,600+",
+    image: "images/landscape_silicone_travel_bottles.jpg",
+    pinImage: "images/pin_silicone_travel_bottles.jpg",
+    amazonUrl: "https://link.amazon/B093ZIDmU",
+    bullets: [
+      "Complete 18-piece set includes squeezable silicone bottles, cream jars, spray mister & spatula",
+      "Triple-layer leak-proof cap design prevents accidental luggage spills and air pressure leaks",
+      "BPA-free food-grade silicone is ultra-soft, squeezable, and easy to refill with wide mouth",
+      "TSA quart-size clear carry bag approved for domestic and international airport security"
+    ],
+    features: ["TSA Approved", "Triple Leak-Proof", "Food-Grade Silicone", "18-Piece Set"]
+  },
+  {
+    id: "travel-jewelry-case",
+    title: "Compact Travel Jewelry Organizer Box with Built-In Mirror",
+    tagline: "Keeps necklaces, rings, and earrings completely knot-free and protected",
+    category: "travel",
+    badge: "Under ",
+    badgeType: "budget",
+    rating: "4.6",
+    reviews: "9,700+",
+    image: "images/landscape_travel_jewelry_case.jpg",
+    pinImage: "images/pin_travel_jewelry_case.jpg",
+    amazonUrl: "https://link.amazon/B07n4ptzq",
+    bullets: [
+      "Built-in interior vanity mirror for effortless makeup and jewelry styling on the go",
+      "Anti-tangle necklace hooks with elastic catch pouch prevent annoying knots",
+      "Plush velvet ring roll section holds up to 6 rings plus earring studs securely",
+      "Pocket-sized PU leather exterior wipes clean and fits inside any handbag or carry-on"
+    ],
+    features: ["Built-In Mirror", "Tangle-Free Hooks", "Plush Velvet Lining", "Pocket Sized"]
+  },
   {
     id: "luggage-scale",
     title: "Longang Digital Hanging Luggage Scale with Backlight",
@@ -59,7 +99,7 @@ const products = [
       "7 individual compartments with secure inner lids to prevent spills",
       "Magnetic folding closure keeps case locked tight in your purse or tote",
       "Moisture-proof food-grade silicone seal protects vitamins and supplements",
-      "Fits in the palm of your hand — TSA compliant and pocket-friendly"
+      "Fits in the palm of your hand â€” TSA compliant and pocket-friendly"
     ],
     features: ["TSA Friendly", "Magnetic Lock", "Moisture Proof", "Pocket Size"]
   },
@@ -141,7 +181,7 @@ const products = [
       "Water-resistant peach-skin fabric with supple quilted padding for protection",
       "Transparent inner pockets let you spot skincare items instantly"
     ],
-    features: ["360° Hanging Hook", "Leak-Proof", "Water-Resistant", "Aesthetic Quilted"]
+    features: ["360Â° Hanging Hook", "Leak-Proof", "Water-Resistant", "Aesthetic Quilted"]
   },
   {
     id: "packing-cubes-8set",
@@ -221,7 +261,7 @@ const products = [
       "Heavy-duty metal construction holds substantial weight without bending",
       "360-degree swivel hook makes viewing and selecting outfits instant"
     ],
-    features: ["Holds 20 Pairs", "Rubber Anti-Slip Clips", "360° Swivel Hook", "Saves 80% Space"]
+    features: ["Holds 20 Pairs", "Rubber Anti-Slip Clips", "360Â° Swivel Hook", "Saves 80% Space"]
   },
   {
     id: "mug-warmer",
@@ -336,7 +376,7 @@ const products = [
     pinImage: "images/d30_label_tape_pin_1.jpg",
     amazonUrl: "https://link.amazon/B09TIXs7Q",
     bullets: [
-      "No ink or toner required — direct thermal printing produces crisp dark text",
+      "No ink or toner required â€” direct thermal printing produces crisp dark text",
       "Waterproof, oil-proof, and tear-resistant sticker labels withstand dishwashing",
       "Leaves zero sticky adhesive residue when peeled off glass spice jars and bins",
       "Compatible with Phomemo D30 portable Bluetooth label printers"
@@ -368,3 +408,4 @@ const products = [
 if (typeof module !== "undefined" && module.exports) {
   module.exports = products;
 }
+

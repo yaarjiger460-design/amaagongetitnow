@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
   <url>
@@ -9,6 +9,18 @@
   </url>
 
   <!-- Curated Product Spotlights -->
+  <url>
+    <loc>https://yaarjiger460-design.github.io/amaagongetitnow/?p=silicone-travel-bottles</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://yaarjiger460-design.github.io/amaagongetitnow/?p=travel-jewelry-case</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://yaarjiger460-design.github.io/amaagongetitnow/?p=luggage-scale</loc>
     <lastmod>2026-10-31</lastmod>
@@ -118,3 +130,4 @@
     <priority>0.8</priority>
   </url>
 </urlset>
+
