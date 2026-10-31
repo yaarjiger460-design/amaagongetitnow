@@ -1,8 +1,48 @@
 // Curated Amazon Affiliate Products Database
 // Store ID: mahamza7681-20
-// All ASINs verified active on Amazon.com
+// Contains ALL 18 products with the EXACT affiliate links provided in chat
 
 const products = [
+  {
+    id: "luggage-scale",
+    title: "Longang Digital Hanging Luggage Scale with Backlight",
+    tagline: "Avoid surprise $50+ airline overweight baggage fees at check-in",
+    category: "travel",
+    badge: "Under $10",
+    badgeType: "budget",
+    rating: "4.7",
+    reviews: "8,600+",
+    image: "images/landscape_luggage_scale.jpg",
+    pinImage: "images/pin_luggage_scale.jpg",
+    amazonUrl: "https://link.amazon/B093gLw8C",
+    bullets: [
+      "Measures weight up to 110 lbs (50 kg) with precision sensor accuracy",
+      "Bright green backlit LCD screen displays readings clearly in any lighting",
+      "Heavy-duty strap and stainless steel hook withstand heavy suitcases",
+      "Compact handheld ergonomic handle weighs only 3.2 oz"
+    ],
+    features: ["110 lb Capacity", "Backlit LCD", "Battery Included", "Avoid Airline Fees"]
+  },
+  {
+    id: "travel-adapter",
+    title: "HAPOW All-in-One Worldwide Universal Travel Power Adapter",
+    tagline: "Fast charge 5 devices simultaneously across 150+ countries",
+    category: "travel",
+    badge: "Under $15",
+    badgeType: "popular",
+    rating: "4.6",
+    reviews: "5,500+",
+    image: "images/landscape_travel_adapter.jpg",
+    pinImage: "images/pin_travel_adapter.jpg",
+    amazonUrl: "https://link.amazon/B092QNftK",
+    bullets: [
+      "Universal plug slides into outlets across US, UK, EU, Australia & 150+ nations",
+      "Features 2 USB-C ports, 2 USB-A fast-charging ports, and 1 AC wall outlet",
+      "Smart IC chip automatically detects device wattage for optimal charging speed",
+      "Built-in fuse protection guards against over-voltage and short circuits"
+    ],
+    features: ["150+ Countries", "4 USB Ports + AC", "PD 20W Fast Charge", "Surge Protection"]
+  },
   {
     id: "pill-case",
     title: "FYY 7-Compartment Travel Pill & Vitamin Organizer",
@@ -14,7 +54,7 @@ const products = [
     reviews: "10,600+",
     image: "images/landscape_travel_pill_organizer.jpg",
     pinImage: "images/pin_travel_pill_organizer.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B08RDCQZHQ?tag=mahamza7681-20",
+    amazonUrl: "https://link.amazon/B0b6uXdMr",
     bullets: [
       "7 individual compartments with secure inner lids to prevent spills",
       "Magnetic folding closure keeps case locked tight in your purse or tote",
@@ -34,7 +74,7 @@ const products = [
     reviews: "1,200+",
     image: "images/landscape_airplane_footrest.jpg",
     pinImage: "images/pin_airplane_footrest.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B0H8FKPWN2?tag=mahamza7681-20",
+    amazonUrl: "https://link.amazon/B00t4Ettt",
     bullets: [
       "Loops securely over any airplane tray table arms in seconds",
       "Thick high-density memory foam base cradles feet and elevates legs",
@@ -42,6 +82,86 @@ const products = [
       "Folds down to the size of a smartphone into included travel pouch"
     ],
     features: ["Memory Foam", "Adjustable Straps", "Packs Pocket Size", "Economy Essential"]
+  },
+  {
+    id: "packing-cubes-black",
+    title: "BAGAIL 6-Pack Black Compression Packing Cubes",
+    tagline: "Saves up to 60% luggage space with double zipper compression",
+    category: "travel",
+    badge: "#1 Best Seller",
+    badgeType: "bestseller",
+    rating: "4.6",
+    reviews: "18,400+",
+    image: "images/landscape_bagail_black_cubes.jpg",
+    pinImage: "images/pin_bagail_black_cubes.jpg",
+    amazonUrl: "https://link.amazon/B08IjxBbI",
+    bullets: [
+      "Secondary exterior zipper forces excess air out for instant compression",
+      "Complete 6-piece set with breathable half-mesh inspection panels",
+      "Durable tear-resistant nylon fabric with reinforced stitching",
+      "Fits standard carry-on suitcases and prevents clothes from wrinkling"
+    ],
+    features: ["60% Space Saving", "Half Mesh", "Tear-Resistant", "Carry-On Ready"]
+  },
+  {
+    id: "packing-cubes-blue",
+    title: "BAGAIL 6-Pack Sky Blue Compression Packing Cubes",
+    tagline: "Organize outfits effortlessly and pack 2x more per trip",
+    category: "travel",
+    badge: "Trending",
+    badgeType: "trending",
+    rating: "4.6",
+    reviews: "18,400+",
+    image: "images/landscape_bagail_blue_cubes.jpg",
+    pinImage: "images/pin_bagail_blue_cubes.jpg",
+    amazonUrl: "https://link.amazon/B0cRvCuvZ",
+    bullets: [
+      "Durable lightweight nylon with breathable mesh inspection panels",
+      "Smart compression zippers reduce luggage bulk instantly",
+      "Vibrant sky blue makes identifying your luggage effortless",
+      "Keeps clean and dirty laundry separated throughout your journey"
+    ],
+    features: ["Double Zipper", "Color Coded", "Tear-Resistant", "Mesh Breathable"]
+  },
+  {
+    id: "nishel-toiletry-bag",
+    title: "NISHEL Portable Hanging Travel Toiletry Bag (Quilted Pink)",
+    tagline: "Keeps full-sized cosmetics & skincare leak-free and upright",
+    category: "travel",
+    badge: "Under $15",
+    badgeType: "popular",
+    rating: "4.8",
+    reviews: "14,200+",
+    image: "images/landscape_nishel_pink_toiletry.jpg",
+    pinImage: "images/pin_nishel_pink_toiletry.jpg",
+    amazonUrl: "https://link.amazon/B08cSoilw",
+    bullets: [
+      "Built-in 360-degree swivel hook hangs on bathroom doors, showers, or towel racks",
+      "4 separate leak-proof compartments hold full-size bottles and makeup brushes",
+      "Water-resistant peach-skin fabric with supple quilted padding for protection",
+      "Transparent inner pockets let you spot skincare items instantly"
+    ],
+    features: ["360° Hanging Hook", "Leak-Proof", "Water-Resistant", "Aesthetic Quilted"]
+  },
+  {
+    id: "packing-cubes-8set",
+    title: "BAGAIL 8-Set Compression Travel Packing Cubes",
+    tagline: "The complete 8-piece luggage organization system for extended trips",
+    category: "travel",
+    badge: "Travel Must-Have",
+    badgeType: "bestseller",
+    rating: "4.7",
+    reviews: "70,000+",
+    image: "images/landscape_packing_cubes.jpg",
+    pinImage: "images/pin_bagail_black_cubes.jpg",
+    amazonUrl: "https://link.amazon/B0dAUmoWc",
+    bullets: [
+      "Includes 8 specialized organizers: garment bags, underwear cube, shoe bag & laundry pouch",
+      "High-density water-resistant nylon keeps clothes completely protected",
+      "Smooth double-way metal zipper pulls for snag-free packing",
+      "Compresses luggage bulk down by half for stress-free carry-on travel"
+    ],
+    features: ["8-Piece Master Set", "Includes Shoe Bag", "Snag-Free Zippers", "Ultra Lightweight"]
   },
   {
     id: "cable-organizer",
@@ -64,108 +184,8 @@ const products = [
     features: ["Double Layer", "Water-Resistant", "Elastic Cable Slots", "Compact Profile"]
   },
   {
-    id: "packing-cubes-black",
-    title: "BAGAIL 8-Set Compression Packing Cubes (Black)",
-    tagline: "Saves up to 60% luggage space with double zipper compression",
-    category: "travel",
-    badge: "#1 Best Seller",
-    badgeType: "bestseller",
-    rating: "4.6",
-    reviews: "18,400+",
-    image: "images/landscape_bagail_black_cubes.jpg",
-    pinImage: "images/pin_bagail_black_cubes.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B081JSFHZK?tag=mahamza7681-20",
-    bullets: [
-      "Secondary exterior zipper forces excess air out for instant compression",
-      "Complete 8-piece set includes cubes for shirts, pants, underwear & shoes",
-      "Durable tear-resistant nylon fabric with reinforced stitching",
-      "Fits standard carry-on suitcases and prevents clothes from wrinkling"
-    ],
-    features: ["60% Space Saving", "8-Piece Complete Set", "Shoe Bag Included", "Carry-On Ready"]
-  },
-  {
-    id: "packing-cubes-blue",
-    title: "BAGAIL 8-Set Compression Packing Cubes (Cobalt Blue)",
-    tagline: "Organize outfits effortlessly and pack 2x more per trip",
-    category: "travel",
-    badge: "Trending",
-    badgeType: "trending",
-    rating: "4.6",
-    reviews: "18,400+",
-    image: "images/landscape_bagail_blue_cubes.jpg",
-    pinImage: "images/pin_bagail_blue_cubes.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B081JSMJLG?tag=mahamza7681-20",
-    bullets: [
-      "Durable lightweight nylon with breathable mesh inspection panels",
-      "Smart compression zippers reduce luggage bulk instantly",
-      "Vibrant cobalt blue makes identifying your luggage effortless",
-      "Keeps clean and dirty laundry separated throughout your journey"
-    ],
-    features: ["Double Zipper", "Color Coded", "Tear-Resistant", "Mesh Breathable"]
-  },
-  {
-    id: "luggage-scale",
-    title: "Longang Digital Hanging Luggage Scale with Backlight",
-    tagline: "Avoid surprise $50+ airline overweight baggage fees at check-in",
-    category: "travel",
-    badge: "Under $10",
-    badgeType: "budget",
-    rating: "4.7",
-    reviews: "8,600+",
-    image: "images/landscape_luggage_scale.jpg",
-    pinImage: "images/pin_luggage_scale.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B07N1F68PZ?tag=mahamza7681-20",
-    bullets: [
-      "Measures weight up to 110 lbs (50 kg) with precision sensor accuracy",
-      "Bright green backlit LCD screen displays readings clearly in any lighting",
-      "Heavy-duty strap and stainless steel hook withstand heavy suitcases",
-      "Compact handheld ergonomic handle weighs only 3.2 oz"
-    ],
-    features: ["110 lb Capacity", "Backlit LCD", "Battery Included", "Avoid Airline Fees"]
-  },
-  {
-    id: "travel-adapter",
-    title: "HAPOW All-in-One Worldwide Universal Travel Power Adapter",
-    tagline: "Fast charge 5 devices simultaneously across 150+ countries",
-    category: "travel",
-    badge: "Under $15",
-    badgeType: "popular",
-    rating: "4.6",
-    reviews: "5,500+",
-    image: "images/landscape_travel_adapter.jpg",
-    pinImage: "images/pin_travel_adapter.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B0DC6K8WLH?tag=mahamza7681-20",
-    bullets: [
-      "Universal plug slides into outlets across US, UK, EU, Australia & 150+ nations",
-      "Features 2 USB-C ports, 2 USB-A fast-charging ports, and 1 AC wall outlet",
-      "Smart IC chip automatically detects device wattage for optimal charging speed",
-      "Built-in fuse protection guards against over-voltage and short circuits"
-    ],
-    features: ["150+ Countries", "4 USB Ports + AC", "PD 20W Fast Charge", "Surge Protection"]
-  },
-  {
-    id: "spin-scrubber",
-    title: "PUFTEM Cordless Electric Spin Scrubber with Extension Arm",
-    tagline: "Deep clean shower tile, grout, and tubs without bending or scrubbing",
-    category: "home",
-    badge: "Viral Clean Hack",
-    badgeType: "trending",
-    rating: "4.5",
-    reviews: "3,200+",
-    image: "images/landscape_electric_spin_scrubber.jpg",
-    pinImage: "images/pin_spin_scrubber.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B0D4YZY511?tag=mahamza7681-20",
-    bullets: [
-      "High-torque motor spins at dual speeds to dissolve stubborn soap scum",
-      "Adjustable extension handle extends from 25 inches to 47 inches",
-      "Comes with 8 interchangeable brush heads for tiles, glass, wheels & corners",
-      "Long-lasting rechargeable battery provides up to 90 minutes of cordless cleaning"
-    ],
-    features: ["Cordless Power", "8 Brush Heads", "Extends to 47 inches", "Saves Your Back"]
-  },
-  {
     id: "veggie-chopper",
-    title: "Fullstar Multi-Blade Vegetable & Onion Chopper",
+    title: "Fullstar 4-in-1 Multi-Blade Vegetable Chopper & Slicer",
     tagline: "Cuts meal prep time in half with one clean pressing motion",
     category: "home",
     badge: "Kitchen Bestseller",
@@ -174,18 +194,18 @@ const products = [
     reviews: "115,000+",
     image: "images/landscape_veggie_chopper.jpg",
     pinImage: "images/pin_veggie_chopper_1.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B07VG4S38C?tag=mahamza7681-20",
+    amazonUrl: "https://link.amazon/B06Lcv4Vq",
     bullets: [
-      "4 razor-sharp interchangeable stainless steel blades (dice, chop, julienne)",
+      "4 razor-sharp interchangeable stainless steel blades (dice, chop, julienne, spiralize)",
       "Built-in 1.2L catch tray keeps countertops tidy and mess-free",
       "No more onion tears or uneven vegetable cubes",
-      "Dishwasher safe parts with included cleaning fork"
+      "Dishwasher safe parts with included cleaning scraper"
     ],
     features: ["4 Stainless Blades", "1.2L Catch Tray", "Dishwasher Safe", "No Onion Tears"]
   },
   {
     id: "legging-hangers",
-    title: "Multi-Tier Space-Saving Legging & Yoga Pant Hangers",
+    title: "Space-Saving Legging & Yoga Pants Hangers (2-Pack)",
     tagline: "Reclaim up to 80% closet rod space while keeping pants visible",
     category: "home",
     badge: "Closet Hack",
@@ -194,18 +214,18 @@ const products = [
     reviews: "4,100+",
     image: "images/landscape_legging_hangers.jpg",
     pinImage: "images/pin_legging_hanger_1.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B0BZCBJ7RL?tag=mahamza7681-20",
+    amazonUrl: "https://link.amazon/B059KpPv6",
     bullets: [
-      "Holds 10 pairs of leggings, yoga pants, or jeans on a single vertical hanger",
+      "Holds 20 pairs of leggings, yoga pants, or jeans vertically on 2 hangers",
       "Rubber-coated non-slip clips prevent snags, creasing, and dropped clothes",
       "Heavy-duty metal construction holds substantial weight without bending",
       "360-degree swivel hook makes viewing and selecting outfits instant"
     ],
-    features: ["Holds 10 Pairs", "Rubber Anti-Slip Clips", "360° Swivel Hook", "Saves 80% Space"]
+    features: ["Holds 20 Pairs", "Rubber Anti-Slip Clips", "360° Swivel Hook", "Saves 80% Space"]
   },
   {
     id: "mug-warmer",
-    title: "Smart Auto Shut-Off Coffee & Tea Mug Warmer",
+    title: "Smart Coffee Mug Warmer for Desk (Auto Shut-Off)",
     tagline: "Keeps your morning coffee at the exact perfect drinking temperature",
     category: "home",
     badge: "Desk Favorite",
@@ -214,27 +234,47 @@ const products = [
     reviews: "22,000+",
     image: "images/landscape_mug_warmer.jpg",
     pinImage: "images/pin_mug_warmer_1.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B000CO89T8?tag=mahamza7681-20",
+    amazonUrl: "https://link.amazon/B0dodcr7V",
     bullets: [
-      "Maintains warm beverage temperatures all morning long",
-      "Compact design fits any desk, countertop, or nightstand",
-      "Wipes clean in seconds with a damp towel",
-      "Convenient on/off indicator light with extra-long power cord"
+      "Maintains warm beverage temperatures all morning long without burning coffee",
+      "Compact wood-grain design fits any desk, countertop, or nightstand",
+      "Waterproof glass top plate wipes clean in seconds with a damp towel",
+      "Auto shut-off safety sensor prevents accidental overheating"
     ],
-    features: ["Constant Warmth", "Spill Resistant", "Long Cord", "Desk Essential"]
+    features: ["Constant Warmth", "Spill Resistant", "Auto Shut-Off", "Desk Essential"]
+  },
+  {
+    id: "spin-scrubber",
+    title: "PUFTEM Cordless Electric Spin Scrubber for Bathroom & Tile",
+    tagline: "Deep clean shower tile, grout, and tubs without bending or scrubbing",
+    category: "home",
+    badge: "Viral Clean Hack",
+    badgeType: "trending",
+    rating: "4.5",
+    reviews: "3,200+",
+    image: "images/landscape_electric_spin_scrubber.jpg",
+    pinImage: "images/pin_spin_scrubber.jpg",
+    amazonUrl: "https://link.amazon/B0d1japYc",
+    bullets: [
+      "High-torque motor spins at dual speeds to dissolve stubborn soap scum",
+      "Adjustable extension handle extends from 25 inches to 47 inches",
+      "Comes with interchangeable brush heads for tiles, glass, wheels & corners",
+      "Long-lasting rechargeable battery provides cordless cleaning freedom"
+    ],
+    features: ["Cordless Power", "Multi Brush Heads", "Extends to 47 inches", "Saves Your Back"]
   },
   {
     id: "car-cleaning-gel",
-    title: "Universal Dust Cleaning Gel Putty for Car Vents & Keyboards",
+    title: "Viral Car Cleaning Putty & Vent Detailing Gel",
     tagline: "Picks up crumbs, dust, and lint from impossible narrow crevices",
     category: "tech",
     badge: "Under $10",
     badgeType: "budget",
     rating: "4.4",
-    reviews: "68,000+",
+    reviews: "80,000+",
     image: "images/landscape_car_cleaning_gel.jpg",
     pinImage: "images/car gel.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B07GW9TJ3G?tag=mahamza7681-20",
+    amazonUrl: "https://link.amazon/B0bEoXiPk",
     bullets: [
       "Squishes smoothly into car AC vents, cup holders, and steering buttons",
       "Grabs dust and hair without leaving sticky residue behind on surfaces",
@@ -242,6 +282,86 @@ const products = [
       "Sweet pleasant scent and biodegradable cleaning formula"
     ],
     features: ["No Sticky Residue", "Reusable Gel", "Deep Vent Cleaning", "Biodegradable"]
+  },
+  {
+    id: "wood-cable-box",
+    title: "Luxury Blackened Acacia Wood Cable Management Box",
+    tagline: "Hides messy power strips and cords under a sleek modern wooden lid",
+    category: "home",
+    badge: "WFH Upgrade",
+    badgeType: "popular",
+    rating: "4.7",
+    reviews: "6,200+",
+    image: "images/landscape_wood_cable_box.jpg",
+    pinImage: "images/cable_box_pin_1.jpg",
+    amazonUrl: "https://link.amazon/A0dlCSrTW",
+    bullets: [
+      "Handcrafted from authentic solid blackened acacia wood with magnetic lid",
+      "Extra-large interior conceals standard 6-outlet power strips and bulky adapters",
+      "Multiple side cable cutouts allow smooth routing for chargers and laptop cords",
+      "Elevates home office and desk setups with a clean luxury aesthetic"
+    ],
+    features: ["Solid Acacia Wood", "Magnetic Lid", "Hides Power Strips", "Luxury Decor"]
+  },
+  {
+    id: "waterless-diffuser",
+    title: "Onakge Waterless Hotel Scent Aroma Diffuser Machine",
+    tagline: "Diffuse pure essential oils without adding water or messy cleaning",
+    category: "home",
+    badge: "Luxury Scent",
+    badgeType: "trending",
+    rating: "4.6",
+    reviews: "4,800+",
+    image: "images/landscape_waterless_diffuser.jpg",
+    pinImage: "images/waterless_diffuser_pin_1.jpg",
+    amazonUrl: "https://link.amazon/B0jbiwB0o",
+    bullets: [
+      "Cold-air nebulizing technology diffuses undiluted pure essential oil aroma",
+      "Bluetooth app control allows custom mist schedules and fragrance intensity",
+      "Whisper-quiet operation covers up to 1,000 sq ft with luxury hotel ambiance",
+      "Sleek aerospace aluminum tower looks stunning in bedrooms and living rooms"
+    ],
+    features: ["No Water Needed", "Bluetooth App", "1000 Sq Ft Cover", "Hotel Fragrance"]
+  },
+  {
+    id: "label-maker-tapes",
+    title: "3 Rolls Waterproof D30 Thermal Sticker Label Tapes",
+    tagline: "Print aesthetic waterproof labels for kitchen jars, bins & closets",
+    category: "home",
+    badge: "Under $10",
+    badgeType: "budget",
+    rating: "4.7",
+    reviews: "15,800+",
+    image: "images/landscape_d30_label_tapes.jpg",
+    pinImage: "images/d30_label_tape_pin_1.jpg",
+    amazonUrl: "https://link.amazon/B09TIXs7Q",
+    bullets: [
+      "No ink or toner required — direct thermal printing produces crisp dark text",
+      "Waterproof, oil-proof, and tear-resistant sticker labels withstand dishwashing",
+      "Leaves zero sticky adhesive residue when peeled off glass spice jars and bins",
+      "Compatible with Phomemo D30 portable Bluetooth label printers"
+    ],
+    features: ["No Ink Needed", "100% Waterproof", "Residue Free", "3 Value Rolls"]
+  },
+  {
+    id: "mini-canvases",
+    title: "ESRICH 30-Pack 5x7 Inch Mini Canvas Painting Boards",
+    tagline: "100% cotton canvas panels for acrylic, oil painting & creative craft DIYs",
+    category: "home",
+    badge: "Under $15",
+    badgeType: "budget",
+    rating: "4.8",
+    reviews: "9,400+",
+    image: "images/landscape_mini_canvas_pack.jpg",
+    pinImage: "images/esrich_canvas_pin_1.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0D5DC6W4D?tag=mahamza7681-20",
+    bullets: [
+      "Triple primed with acid-free acrylic gesso for instant ready-to-paint use",
+      "100% pure cotton surface holds pigments rich without warping or bleeding",
+      "Sturdy 5x7 inch board core prevents bending during detailed brushwork",
+      "Bulk 30-pack value set perfect for art nights, kids crafts, and mini gifts"
+    ],
+    features: ["100% Cotton", "Triple Primed", "30-Pack Value", "Non-Warping Core"]
   }
 ];
 
