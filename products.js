@@ -1,14 +1,54 @@
-﻿// Curated Amazon Affiliate Products Database
+// Curated Amazon Affiliate Products Database
 // Store ID: mahamza7681-20
-// Contains ALL 18 products with the EXACT affiliate links provided in chat
+// Contains ALL 22 products with the EXACT affiliate links provided in chat
 
 const products = [
+  {
+    id: "airplane-phone-mount",
+    title: "Universal 360° Airplane In-Flight Phone Mount (2-Pack)",
+    tagline: "Never hold your phone or strain your neck during a long flight again",
+    category: "travel",
+    badge: "Under $10",
+    badgeType: "budget",
+    rating: "4.4",
+    reviews: "3,200+",
+    image: "images/landscape_airplane_phone_mount.jpg",
+    pinImage: "images/pin_airplane_phone_mount.jpg",
+    amazonUrl: "https://link.amazon/B058IuYe5",
+    bullets: [
+      "Includes 2 universal phone mounts for airplane tray tables, luggage handles, desks & gym gear",
+      "Dual-joint 360-degree rotation allows seamless switching between vertical and horizontal movie viewing",
+      "Heavy-duty rubber-padded spring clamp securely grips tray tables without slipping or scratching",
+      "Ultra-compact pocket design folds flat in seconds to slip effortlessly into your pocket or carry-on"
+    ],
+    features: ["2-Pack Value", "360° Rotation", "Strong Clamp", "Pocket Foldable"]
+  },
+  {
+    id: "luggage-cup-holder",
+    title: "Hands-Free Luggage Travel Cup Holder Caddy Attachment",
+    tagline: "Stop juggling hot coffee, your phone, and boarding passes in airport lines",
+    category: "travel",
+    badge: "Under $10",
+    badgeType: "budget",
+    rating: "4.3",
+    reviews: "1,800+",
+    image: "images/landscape_luggage_cup_holder.jpg",
+    pinImage: "images/pin_luggage_cup_holder.jpg",
+    amazonUrl: "https://link.amazon/B028fVCal",
+    bullets: [
+      "Dual insulated front pockets hold coffee cups, travel tumblers, and water bottles while rolling",
+      "Quick-release wrap-around strap installs instantly onto any standard suitcase pull handle",
+      "Rear organizer pocket keeps your smartphone, passport, and boarding pass within quick reach",
+      "Durable water-resistant Oxford fabric folds flat inside your suitcase when not in use"
+    ],
+    features: ["Dual Cup Pockets", "Fits Rolling Luggage", "Rear Phone Pocket", "Folds Flat"]
+  },
   {
     id: "silicone-travel-bottles",
     title: "18-Piece Leak-Proof Silicone Travel Bottles Set (TSA Approved)",
     tagline: "Stop full-size shampoo bottles from leaking all over your clothes",
     category: "travel",
-    badge:"Under $10" ,
+    badge: "Under $10",
     badgeType: "budget",
     rating: "4.5",
     reviews: "12,600+",
